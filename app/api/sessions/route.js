@@ -23,5 +23,5 @@ const { data: existing } = await supabase
   .gte("created_at", new Date().toISOString().split("T")[0]);
 
 if (!existing || existing.length === 0) {
-  await fetch(`${process.env.BASE_URL}/api/generate`);
+  await fetch("http://localhost:3000/api/generate");
 }
