@@ -1,8 +1,2 @@
 {
-  "cron": [
-    {
-      "path": "/api/generate",
-      "schedule": "0 0 * * *"
-    }
-  ]
 }
