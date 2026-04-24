@@ -36,3 +36,20 @@ Elevate OS delivers short, guided mental conditioning sessions designed to help 
 5. Launch your SaaS
 
 ## 🔑 Environment Variables
+
+OPENAI_API_KEY= SUPABASE_URL= SUPABASE_ANON_KEY= STRIPE_SECRET_KEY= STRIPE_PRICE_ID= BASE_URL=
+## 📈 Roadmap
+
+- User authentication & profiles
+- Personalized AI sessions
+- Audio generation for guided playback
+- Mobile app version
+- Referral & growth system
+
+## ⚠️ Disclaimer
+
+This platform is designed for general wellness, focus, and productivity support. It is not intended as medical or psychological treatment.
+
+## 📄 License
+
+MIT
