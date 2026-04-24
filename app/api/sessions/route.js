@@ -14,3 +14,14 @@ export async function GET() {
 
   return Response.json(data);
 }
+
+const today = new Date().toDateString();
+
+const { data: existing } = await supabase
+  .from("sessions")
+  .select("*")
+  .gte("created_at", new Date().toISOString().split("T")[0]);
+
+if (!existing || existing.length === 0) {
+  await fetch(`${process.env.BASE_URL}/api/generate`);
+}
